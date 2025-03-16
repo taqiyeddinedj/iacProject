@@ -35,6 +35,7 @@ spec:
     app: nodejs-app
   ports:
     - protocol: TCP
+      name: metrics
       port: 3000
       targetPort: 3000
       nodePort: 32000
