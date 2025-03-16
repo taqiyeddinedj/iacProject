@@ -10,6 +10,9 @@ spec:
   selector:
     matchLabels:
       app: nodejs-app
+  namespaceSelector:
+    matchNames:
+      - iacproject
   endpoints:
     - port: metrics
       path: /metrics

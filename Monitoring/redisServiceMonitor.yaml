@@ -9,6 +9,9 @@ spec:
   selector:
     matchLabels:
       app: redis-exporter
+  namespaceSelector:
+    matchNames:
+      - iacproject
   endpoints:
     - port: metrics
       interval: 15s
