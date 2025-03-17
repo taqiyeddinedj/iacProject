@@ -4,7 +4,7 @@ metadata:
   name: redis-exporter-monitor
   labels:
     release: prometheus
-  namespace: default
+  namespace: iacproject
 spec:
   selector:
     matchLabels:

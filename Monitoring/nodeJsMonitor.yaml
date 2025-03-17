@@ -4,7 +4,7 @@ metadata:
   name: nodejs-app-monitor
   labels:
     release: prometheus
-  namespace: default
+  namespace: iacproject
   
 spec:
   selector:
